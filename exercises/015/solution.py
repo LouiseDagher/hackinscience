@@ -1,5 +1,11 @@
-a = 245850922 / 78256779
-b = 5 ** 0.5
-c = (1 + b) / 2
-print(a)
-print(b)
+import operator
+a = 245850922
+b = 78256779
+d = 1
+e = 5 ** 0.5
+f = operator.truediv(a, b)
+g = operator.add(d, e)
+h = operator.truediv(g, 2)
+
+print(f)
+print(h)
