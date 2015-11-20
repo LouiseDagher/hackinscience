@@ -9,3 +9,8 @@ def sort_a_list(a):
                 a[i + 1] = tmp
                 OK = False
     return(a)
+
+
+def sort_by_mark(a):
+    b = sorted(a, reverse = True)
+    return(b)
