@@ -14,3 +14,10 @@ def sort_a_list(a):
 def sort_by_mark(a):
     b = sorted(a, reverse=True)
     return(b)
+
+
+def sort_by_name(a):
+    from operator import itemgetter, attrgetter
+    c = itemgetter(1)
+    b = sorted(a, key=c)
+    return(b)
