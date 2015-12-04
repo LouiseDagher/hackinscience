@@ -5,6 +5,7 @@ station = {
  'name': 'CHAMPEAUX (BAGNOLET)',
  'longitude': 2.416170724425901
 }
+
 print('adress', station['address'])
 print('number', station['number'])
 print('latitude', station['latitude'])
