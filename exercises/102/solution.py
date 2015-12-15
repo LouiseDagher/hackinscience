@@ -41,7 +41,6 @@ def check_my_city(city_name):
     N = []
     for i in velib:
         if city_name is i['city']:
-            print("coucou")
             A = A + 1
             N.append(i['zip'])
             return {"stations_nb": A, "zip_code": N, "city": city_name}
