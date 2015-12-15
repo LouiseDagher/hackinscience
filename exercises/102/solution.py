@@ -35,6 +35,7 @@ velib = [{
         'longitude': 2.412715733388685
     }]
 
+
 def check_my_city(city_name):
     A = 0
     N = []
@@ -43,8 +44,6 @@ def check_my_city(city_name):
             print("coucou")
             A = A + 1
             N.append(i['zip'])
-            return {"stations_nb": A, 
-                "zip_code": N,
-                "city": city_name}
+            return {"stations_nb": A, "zip_code": N, "city": city_name}
         else:
             return("Sorry! No station for your city has been found!")
